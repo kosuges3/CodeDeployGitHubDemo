@@ -1,10 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: README.md
+  - source: /index.html
     destination: /var/www/html/
-  - source: README.md
-    destination: /home/ec2-user/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
